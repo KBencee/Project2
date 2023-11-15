@@ -1,5 +1,5 @@
 # Project2
-School project about websites/webshopsű
+School project about websites/webshops
 
 1. csapattag (Konfiguráció összeállító weblap készítése):
 Készíts weblapot, amelyben a számítógépek alkatrészei legyenek felsorolva (a paraméterei azok legyenek, mint az 1. csapattagnál vannak leírva), majd JavaScript segítségével lehessen összeállítani egy számítógép konfigurációt!
