@@ -27,4 +27,4 @@ A weblap a következőképpen működjön:
 
 · Legyen a weblapnak egy olyan funkciója, amikor két ugyanolyan kategóriájú terméket egymás mellé lehet tenni, és a paramétereit össze lehet hasonlítani! Ez a weblap külön részén legyen megoldva!
 
-A feladatok megoldásához HTML5-t, Javascriptet és CSS-t használtunk.
+A feladatok megoldásához HTML(5)-t, Javascriptet és CSS-t használtunk.
