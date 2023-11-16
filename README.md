@@ -2,7 +2,7 @@
 Iskolai projekt weblapkészítéssel
 
 1. csapattag - Kiss Bence (Konfiguráció összeállító weblap készítése):
-Készíts weblapot, amelyben a számítógépek alkatrészei legyenek felsorolva (a paraméterei azok legyenek, mint az 1. csapattagnál vannak leírva), majd JavaScript segítségével lehessen összeállítani egy számítógép konfigurációt!
+Készíts weblapot, amelyben a számítógépek alkatrészei legyenek felsorolva, majd JavaScript segítségével lehessen összeállítani egy számítógép konfigurációt!
 
 Az alkatrészek kiválasztásának módja szabadon választott, lehet például űrlap segítségével (checkbox, rádiógomb, vagy gombok), de lehet egyszerűen az adott alkatrész képére is rákkatintva megoldani).
 
