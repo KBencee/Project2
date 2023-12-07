@@ -1,0 +1,55 @@
+alaplap:
+-ASUS TUF Gaming A520M-Plus II Alaplap
+-ASRock H310CM-DVS Alaplap
+-GIGABYTE A520 AORUS ELITE Alaplap
+-MSI A520M-A PRO Alaplap
+-MSI Mpg B550 Gaming Plus Alaplap
+
+processzor:
+-Intel Core i5-11400F Processzor
+-Amd Ryzen 5 3600 Processzor
+-AMD Ryzen 5 5600 Processzor
+-Intel Core i7-11700F Processzor
+-Intel Core I9-11900kf 3.5ghz (s1200) Processzor 
+
+memoria:
+-KINGSTON FURY 16GB Beast DDR4 3200MHz CL16 KIT KF432C16BBK2/16
+-CORSAIR 16GB Vengeance LPX DDR4 3200MHz CL16 CMK16GX4M1E3200C16
+-HP 8GB /3000 V8 RGB DDR4 RAM
+-Patriot 32GB DDR4 3600MHz Kit(2x16GB) Viper Steel RGB PVSR432G360C8K
+-TEAM GROUP 16GB Delta RGB DDR4 3200MHz CL16 KIT TF4D416G3200HC16CDC01
+
+videokartya:
+-Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5
+-GIGABYTE GeForce GTX 1660 SUPER D6 6G
+-MSI GeForce RTX 4060 GAMING X 8G
+-ASUS ROG Strix RX 560 V2 4GB GDDR5 videokártya
+-ASUS Dual RTX 3050 8GB GDDR6 videokártya
+
+hdd vagy ssd:
+-Seagate Barracuda ST2000DM008 2 TB 3,5" belső merevlemez
+-SureFire GX3 Gaming HDD 2TB
+-SureFire GX3 Gaming SSD 1TB
+-Kingston A400 960GB SATA SSD
+-ADATA XPG GAMMIX S11 Pro SSD 1TB
+
+monitor:
+-27" Samsung S366C
+-BenQ XL2411P ZOWIE Gaming monitor, 24", Full HD, 1ms, 144Hz, DVI, HDMI, DP, Fekete
+-23.8" ASUS TUF Gaming VG249Q1A
+-34" Samsung Odyssey G5
+-29" LG UltraWide 29WP500-B
+
+eger:
+-Glorious Model O
+-Corsair Katar PRO
+-SteelSeries Rival 3
+-Logitech G502 Hero
+-Razer Basilisk V3
+
+billentyuzet:
+-DELUX K9852
+-HyperX Alloy Origins Red
+-Logitech G213 Prodigy
+-Gigabyte AORUS K1
+-Billentyűzet Ducky ONE 2 Mini MX Silent Red
