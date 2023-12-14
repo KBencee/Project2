@@ -8,133 +8,98 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand navigacio" href="#"><h2>Számítógép összeállítás</h2></a>
+      <a class="navbar-brand navigacio" href="ertekeles.html"><h4>Értékelés</h4></a>
+    </nav>
+  </div>
     <div id="container">
-        <h1>Fennálló alkatrészek:</h1>
             <form>
             <div class="row">
               <div class="col-md-6">
               <p>
                 <label for="alaplap1"><h5>Válaszd ki az alaplapot:</h5></label>
-                <input type="checkbox" name="check" id="alaplap1" value="0" onclick="onlyOne(this)" onselect="belerak()">
-                <label for="alaplap1">ASUS TUF Gaming A520M-Plus II</label>
-              <br>
-                <input type="checkbox" name="check" id="alaplap2" value="1" onclick="onlyOne(this)" onselect="belerak()">
-                <label for="alaplap2">ASRock H310CM-DVS</label>
-              <br>
-                <input type="checkbox" name="check" id="alaplap3" value="2" onclick="onlyOne(this)" onselect="belerak()">
-                <label for="alaplap3">GIGABYTE A520 AORUS ELITE</label>
-              <br>
-                <input type="checkbox" name="check" id="alaplap4" value="3" onclick="onlyOne(this)" onselect="belerak()">
-                <label for="alaplap4">MSI A520M-A PRO</label>
-              <br>
-                <input type="checkbox" name="check" id="alaplap5" value="4" onclick="onlyOne(this)" onselect="belerak()">
-                <label for="alaplap5">MSI Mpg B550 Gaming Plus</label>
-                <br>
-                <input type="checkbox" name="check" id="semmi" value="5" onclick="onlyOne(this)" onselect="belerak()">
-                <label for="semmi">Nem szeretnék</label>
+                <select name="alaplapok" id="alaplapok" class="lista" onchange="belerak(value)">
+                  <option value="0">ASUS TUF Gaming A520M-Plus II</option>
+                  <option value="1">ASRock H310CM-DVS</option>
+                  <option value="2">GIGABYTE A520 AORUS ELITE</option>
+                  <option value="3">MSI A520M-A PRO</option>
+                  <option value="4">MSI Mpg B550 Gaming Plus</option>
+                  <option value="5">Nem szeretnék</option>
+                </select>
               </p>
-            </div>
-
-            <div class="col-md-6">
-              <p>
-                <label for="processzor"><h5>Válassz processzort:</h5></label>
-                <input type="checkbox" name="check2" id="proc1" value="Intel Core i5-11400F" onclick="onlyOne2(this)" onselect="belerak()">
-                <label for="proc1">Intel Core i5-11400F</label>
-              <br>
-                <input type="checkbox" name="check2" id="proc2" value="Amd Ryzen 5 3600" onclick="onlyOne2(this)" onselect="belerak()">
-                <label for="proc2">Amd Ryzen 5 3600</label>
-              <br>
-                <input type="checkbox" name="check2" id="proc3" value="AMD Ryzen 5 5600" onclick="onlyOne2(this)" onselect="belerak()">
-                <label for="proc3">AMD Ryzen 5 5600</label>
-              <br>
-                <input type="checkbox" name="check2" id="proc4" value="Intel Core i7-11700F" onclick="onlyOne2(this)" onselect="belerak()">
-                <label for="proc4">Intel Core i7-11700F</label>
-              <br>
-                <input type="checkbox" name="check2" id="proc5" value="Intel Core I9-11900kf 3.5ghz (s1200)" onclick="onlyOne2(this)" onselect="belerak()">
-                <label for="proc5">Intel Core I9-11900kf 3.5ghz (s1200)</label>
-                <br>   
-                <input type="checkbox" name="check2" id="semmi2" value="" onclick="onlyOne2(this)" onselect="belerak()">
-                <label for="semmi2">Nem szeretnék</label>
-              </p>
-            </div>
-          
-
-            <div class="col-md-6">
-              <p>
-                <label for="memoria"><h5>Válassz memóriát:</h5></label>
-                <input type="checkbox" name="check3" id="memo1" value="KINGSTON FURY 16GB Beast DDR4 3200MHz CL16 KIT KF432C16BBK2/16" onclick="onlyOne3(this)" onselect="belerak()">
-                <label for="memo1">KINGSTON FURY 16GB Beast DDR4 3200MHz CL16 KIT KF432C16BBK2/16</label>
-              <br>
-                <input type="checkbox" name="check3" id="memo2" value="CORSAIR 16GB Vengeance LPX DDR4 3200MHz CL16 CMK16GX4M1E3200C16" onclick="onlyOne3(this)" onselect="belerak()">
-                <label for="memo2">CORSAIR 16GB Vengeance LPX DDR4 3200MHz CL16 CMK16GX4M1E3200C16</label>
-              <br>
-                <input type="checkbox" name="check3" id="memo3" value="HP 8GB /3000 V8 RGB DDR4 RAM" onclick="onlyOne3(this)">
-                <label for="memo3">HP 8GB /3000 V8 RGB DDR4 RAM</label>
-              <br>
-                <input type="checkbox" name="check3" id="memo4" value="Patriot 32GB DDR4 3600MHz Kit(2x16GB) Viper Steel RGB PVSR432G360C8K" onclick="onlyOne3(this)" onselect="belerak()">
-                <label for="memo4">Patriot 32GB DDR4 3600MHz Kit(2x16GB) Viper Steel RGB PVSR432G360C8K</label>
-              <br>
-                <input type="checkbox" name="check3" id="memo5" value="TEAM GROUP 16GB Delta RGB DDR4 3200MHz CL16 KIT TF4D416G3200HC16CDC01" onclick="onlyOne3(this)" onselect="belerak()">
-                <label for="memo5">TEAM GROUP 16GB Delta RGB DDR4 3200MHz CL16 KIT TF4D416G3200HC16CDC01</label>
-                <br>   
-                <input type="checkbox" name="check3" id="semmi3" value="" onclick="onlyOne3(this)" onselect="belerak()">
-                <label for="semmi3">Nem szeretnék</label>
+                <p>
+                  <label for="processzor"><h5>Válassz processzort:</h5></label>
+                  <select name="processzorok" id="processzorok" class="lista" onchange="belerak(value)">
+                    <option value="6">Intel Core i5-11400F</option>
+                    <option value="7">Amd Ryzen 5 3600</option>
+                    <option value="8">AMD Ryzen 5 5600</option>
+                    <option value="9">Intel Core i7-11700F</option>
+                    <option value="10">Intel Core I9-11900kf 3.5ghz (s1200)</option>
+                    <option value="11">Nem szeretnék</option>
+                  </select>
                 </p>
-              </div>
-
-                <div class="col-md-6">
+                <p>
+                  <label for="processzor"><h5>Válassz processzort:</h5></label>
+                  <select name="processzorok" id="processzorok" class="lista" onchange="belerak(value)">
+                    <option value="6">Intel Core i5-11400F</option>
+                    <option value="7">Amd Ryzen 5 3600</option>
+                    <option value="8">AMD Ryzen 5 5600</option>
+                    <option value="9">Intel Core i7-11700F</option>
+                    <option value="10">Intel Core I9-11900kf 3.5ghz (s1200)</option>
+                    <option value="11">Nem szeretnék</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="memoria"><h5>Válassz memóriát:</h5></label>
+                  <select name="memoriak" id="memoriak" class="lista" onchange="belerak(value)">
+                    <option value="12">KINGSTON FURY 16GB Beast DDR4 3200MHz CL16 KIT KF432C16BBK2/16</option>
+                    <option value="13">CORSAIR 16GB Vengeance LPX DDR4 3200MHz CL16 CMK16GX4M1E3200C16</option>
+                    <option value="14">HP 8GB /3000 V8 RGB DDR4 RAM</option>
+                    <option value="15">Patriot 32GB DDR4 3600MHz Kit(2x16GB) Viper Steel RGB PVSR432G360C8K</option>
+                    <option value="16">TEAM GROUP 16GB Delta RGB DDR4 3200MHz CL16 KIT TF4D416G3200HC16CDC01</option>
+                    <option value="17">Nem szeretnék</option>
+                  </select>
+                </p>
                 <p>
                   <label for="memoria"><h5>Válassz videókártyát:</h5></label>
-                  <input type="checkbox" name="check4" id="vkartya1" value="Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5" onclick="onlyOne4(this)" onselect="belerak()">
-                  <label for="vkartya1">Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5</label>
-                <br>
-                  <input type="checkbox" name="check4" id="vkartya2" value="GIGABYTE GeForce GTX 1660 SUPER D6 6G" onclick="onlyOne4(this)" onselect="belerak()">
-                  <label for="vkartya2">GIGABYTE GeForce GTX 1660 SUPER D6 6G</label>
-                <br>
-                  <input type="checkbox" name="check4" id="vkartya3" value="MSI GeForce RTX 4060 GAMING X 8G" onclick="onlyOne4(this)" onselect="belerak()">
-                  <label for="vkartya3">MSI GeForce RTX 4060 GAMING X 8G</label>
-                <br>
-                  <input type="checkbox" name="check4" id="vkartya4" value="ASUS ROG Strix RX 560 V2 4GB GDDR5" onclick="onlyOne4(this)" onselect="belerak()">
-                  <label for="vkartya4">ASUS ROG Strix RX 560 V2 4GB GDDR5</label>
-                <br>
-                  <input type="checkbox" name="check4" id="vkartya5" value="ASUS Dual RTX 3050 8GB GDDR6" onclick="onlyOne4(this)" onselect="belerak()">
-                  <label for="vkartya5">ASUS Dual RTX 3050 8GB GDDR6</label>
-                  <br>   
-                  <input type="checkbox" name="check4" id="semmi4" value="" onclick="onlyOne4(this)" onselect="belerak()">
-                  <label for="semmi4">Nem szeretnék</label>
-                  </p>
-                </div>
+                  <select name="videokartyak" id="videokartyak" class="lista" onchange="belerak(value)">
+                    <option value="18">Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5</option>
+                    <option value="19">GIGABYTE GeForce GTX 1660 SUPER D6 6G</option>
+                    <option value="20">MSI GeForce RTX 4060 GAMING X 8G</option>
+                    <option value="21">ASUS ROG Strix RX 560 V2 4GB GDDR5</option>
+                    <option value="22">ASUS Dual RTX 3050 8GB GDDR6</option>
+                    <option value="23">Nem szeretnék</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="memoria"><h5>Válassz hdd-t/ssd-t</h5></label>
+                  <select name="hddssdk" id="hddssdk" class="lista" onchange="belerak(value)">
+                    <option value="24">Seagate Barracuda ST2000DM008 2 TB 3,5</option>
+                    <option value="25">SureFire GX3 Gaming HDD 2TB</option>
+                    <option value="26">SureFire GX3 Gaming SSD 1TB</option>
+                    <option value="27">Kingston A400 960GB SATA SSD</option>
+                    <option value="28">ADATA XPG GAMMIX S11 Pro SSD 1TB</option>
+                    <option value="29">Nem szeretnék</option>
+                  </select>
+                </p>
+                <p>
+                  <input type="submit" value="Megrendelés" id="gomb">
+                </p>
+            </div>
+            <div class="col-md-6 box">
+              <p id="cuccok">
+                <h3>Eddigi alkatrészek:</h3>
+              </p>
+              <p id="procik">
+                
+              </p>
+              <p id="memoria">
 
-                  <div class="col-md-6">
-                  <p>
-                    <label for="memoria"><h5>Válassz hdd-t/ssd-t</h5></label>
-                    <input type="checkbox" name="check5" id="hddssd1" value="Seagate Barracuda ST2000DM008 2 TB 3,5" onclick="onlyOne5(this)" onselect="belerak()">
-                    <label for="hddssd1">Seagate Barracuda ST2000DM008 2 TB 3,5</label>
-                  <br>
-                    <input type="checkbox" name="check5" id="hddssd2" value="SureFire GX3 Gaming HDD 2TB" onclick="onlyOne5(this)" onselect="belerak()">
-                    <label for="hddssd2">SureFire GX3 Gaming HDD 2TB</label>
-                  <br>
-                    <input type="checkbox" name="check5" id="hddssd3" value="SureFire GX3 Gaming SSD 1TB" onclick="onlyOne5(this)" onselect="belerak()">
-                    <label for="hddssd3">SureFire GX3 Gaming SSD 1TB</label>
-                  <br>
-                    <input type="checkbox" name="check5" id="hddssd4" value="Kingston A400 960GB SATA SSD" onclick="onlyOne5(this)" onselect="belerak()">
-                    <label for="hddssd4">Kingston A400 960GB SATA SSD</label>
-                  <br>
-                    <input type="checkbox" name="check5" id="hddssd5" value="ADATA XPG GAMMIX S11 Pro SSD 1TB" onclick="onlyOne5(this)" onselect="belerak()">
-                    <label for="hddssd5">ADATA XPG GAMMIX S11 Pro SSD 1TB</label>
-                    <br>   
-                    <input type="checkbox" name="check5" id="semmi5" value="" onclick="onlyOne5(this)" onselect="belerak()">
-                    <label for="semmi5">Nem szeretnék</label>
-                    </p>
-                    <input type="submit" value="Megrendelés"><br>
-                  </div>
-
-                  <div class="col-md-6" id="cuccok">
-                    <p>
-                      Eddigi alkatrészek:
-                    </p>
-                  </div>
-                </div>
+              </p>
+            </div>
+            </div>
             </form>
     </div>
     <script src="konfig.js"></script>

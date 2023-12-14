@@ -1,39 +1,4 @@
-function onlyOne(checkbox) {
-    var checkboxes = document.getElementsByName('check')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
-}
-
-function onlyOne2(checkbox) {
-    var checkboxes = document.getElementsByName('check2')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
-}
-
-function onlyOne3(checkbox) {
-    var checkboxes = document.getElementsByName('check3')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
-}
-
-function onlyOne4(checkbox) {
-    var checkboxes = document.getElementsByName('check4')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
-}
-
-function onlyOne5(checkbox) {
-    var checkboxes = document.getElementsByName('check5')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
-}
-
-let list1=["","","","","",""]
+let list=["","","","","","","","","","","","","","","","","","","","","",""]
 
 belerak(0)
 function belerak(i){
@@ -45,19 +10,40 @@ function kiir(){
  switch(index)
  {
     case 0:
-        document.getElementById("cuccok").innerHTML="<p>A Lol egy 5v5 moba játék</p> <br>" + `<p>${list[index]} </p>`
+        document.getElementById("procik").innerHTML="Választott alaplap: ASUS TUF Gaming A520M-Plus II<br>" + `<p>${list[index]} </p>`
         break;
     case 1:
-        document.getElementById("cuccok").innerHTML="<p>5v5 Tactial shooter</p> <br>" + `<p>${list[index]} </p>`
+        document.getElementById("procik").innerHTML="Választott alaplap: ASRock H310CM-DVS<br>" + `<p>${list[index]} </p>`
         break;
     case 2:
-        document.getElementById("cuccok").innerHTML="<p>Cartony style, looter shooter</p> <br>" + `<p>${list[index]} </p>`
+        document.getElementById("procik").innerHTML="Választott alaplap: GIGABYTE A520 AORUS ELITE <br>" + `<p>${list[index]} </p>`
         break;
     case 3:
-        document.getElementById("cuccok").innerHTML="<p>Fast paced storygame</p> <br>" + `<p>${list[index]} </p>`
+        document.getElementById("procik").innerHTML="Választott alaplap: MSI A520M-A PRO <br>" + `<p>${list[index]} </p>`
         break;
     case 4:
-        document.getElementById("cuccok").innerHTML="<p>kockák</p> <br>" + `<p>${list[index]} </p>`
+        document.getElementById("procik").innerHTML="Választott alaplap: MSI Mpg B550 Gaming Plus <br>" + `<p>${list[index]} </p>`
         break;
+    case 5:
+        document.getElementById("procik").innerHTML="Nem kérek alaplapot <br>" + `<p>${list[index]} </p>`
+        break;
+    case 6:
+        document.getElementById("memoria").innerHTML="Választott processzor: ASUS TUF Gaming A520M-Plus II<br>" + `<p>${list[index]} </p>`
+        break;
+    case 7:
+        document.getElementById("memoria").innerHTML="Választott processzor: ASRock H310CM-DVS <br>" + `<p>${list[index]} </p>`
+        break;
+    case 8:
+        document.getElementById("memoria").innerHTML="Választott processzor: GIGABYTE A520 AORUS ELITE <br>" + `<p>${list[index]} </p>`
+        break;
+    case 9:
+        document.getElementById("memoria").innerHTML="Választott processzor: MSI A520M-A PRO <br>" + `<p>${list[index]} </p>`
+        break;
+    case 10:
+        document.getElementById("memoria").innerHTML="Választott processzor: MSI Mpg B550 Gaming Plus <br>" + `<p>${list[index]} </p>`
+        break;
+    case 11:
+        document.getElementById("memoria").innerHTML="Nem kérek processzort <br>" + `<p>${list[index]} </p>`
+        break;    
  }
 }
