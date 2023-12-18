@@ -1,4 +1,4 @@
-# Project2
+# Projekt2
 Iskolai projekt weblapkészítéssel
 
 1. csapattag - Kiss Bence (Konfiguráció összeállító weblap készítése):
@@ -27,4 +27,8 @@ A weblap a következőképpen működjön:
 
 · Legyen a weblapnak egy olyan funkciója, amikor két ugyanolyan kategóriájú terméket egymás mellé lehet tenni, és a paramétereit össze lehet hasonlítani! Ez a weblap külön részén legyen megoldva!
 
-A feladatok megoldásához HTML(5)-t, Javascriptet, CSS-t és Bootstrap 5-t használtunk.
+A feladatok megoldásához használtunk:
+HTML(5)-t, 
+Javascriptet,
+CSS-t,
+és Bootstrap 5-t.
