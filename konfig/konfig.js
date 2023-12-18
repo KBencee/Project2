@@ -7,18 +7,19 @@ function belerak(i){
 }
 function kiir(){
     
- 
 }
 
-
-Let parts = {
-    "alaplap": [`ASUS TUF Gaming A520M-Plus II<br><p>${list[index]} </p>`,2,3,4,5],
-    proci: [1,2,3,4,5],
-    // stb
+let parts = {
+    "alaplap": [`ASUS TUF Gaming A520M-Plus II<br><p>${list[index]} </p>`, `ASRock H310CM-DVS<br>"<p>${list[index]} </p>`, `GIGABYTE A520 AORUS ELITE <br>"<p>${list[index]} </p>`, `MSI A520M-A PRO <br>"<p>${list[index]} </p>`, `MSI Mpg B550 Gaming Plus <br>"<p>${list[index]} </p>`, `Nem kérek alaplapot <br>"<p>${list[index]} </p>`],
+    "processzor": [1,2,3,4,5,6],
+    "memoria": [1,2,3,4,5,6],
+    "videokartya":[1,2,3,4,5,6],
+    "hddssd":[1,2,3,4,5,6]
+    
 }
 
 function getPart(partType, index){
-    document.getElelementById("procik").innerHTML = `Valasztott ${partType}: ${parts[partType, index]}`
+    document.getElelementById("procik").innerHTML = `Választott ${partType}: ${parts[partType, index]}`
 }
 //getPart(alaplap, 5)
     
