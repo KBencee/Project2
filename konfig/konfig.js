@@ -7,10 +7,26 @@ function belerak(i){
 }
 function kiir(){
     
- switch(index)
+ 
+}
+
+
+Let parts = {
+    "alaplap": [`ASUS TUF Gaming A520M-Plus II<br><p>${list[index]} </p>`,2,3,4,5],
+    proci: [1,2,3,4,5],
+    // stb
+}
+
+function getPart(partType, index){
+    document.getElelementById("procik").innerHTML = `Valasztott ${partType}: ${parts[partType, index]}`
+}
+//getPart(alaplap, 5)
+    
+/*
+switch(index)
  {
     case 0:
-        document.getElementById("procik").innerHTML="Választott alaplap: ASUS TUF Gaming A520M-Plus II<br>" + `<p>${list[index]} </p>`
+        document.getElementById("procik").innerHTML=`Választott alaplap: ASUS TUF Gaming A520M-Plus II<br><p>${list[index]} </p>`
         break;
     case 1:
         document.getElementById("procik").innerHTML="Választott alaplap: ASRock H310CM-DVS<br>" + `<p>${list[index]} </p>`
@@ -46,4 +62,4 @@ function kiir(){
         document.getElementById("memoria").innerHTML="Nem kérek processzort <br>" + `<p>${list[index]} </p>`
         break;    
  }
-}
+*/
