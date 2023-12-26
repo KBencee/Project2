@@ -1,7 +1,11 @@
 # Projekt2
 ## Iskolai projekt weblapkészítéssel
 ### Kiss Bence - konfigurációs weblap készítése:
-feladatok, hogy állok neki (terv)
+- legördülő listás választási lehetőség
+- kiválasztott alkatrészek látható felsorolása
+- bootstrap
+- ellenőrzés megrendelés előtt
+- értékelés 
 
 ### Földi Soma - weblap az alkatrészek leírásával
 
