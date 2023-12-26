@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="navbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand navigacio" href="#"><h2>Számítógép összeállítás</h2></a>
       <a class="navbar-brand navigacio" href="ertekeles.html"><h4>Értékelés</h4></a>
@@ -41,17 +41,6 @@
                   </select>
                 </p>
                 <p>
-                  <label for="processzor"><h5>Válassz processzort:</h5></label>
-                  <select name="processzorok" id="processzorok" class="lista" onchange="belerak(value)">
-                    <option value="6">Intel Core i5-11400F</option>
-                    <option value="7">Amd Ryzen 5 3600</option>
-                    <option value="8">AMD Ryzen 5 5600</option>
-                    <option value="9">Intel Core i7-11700F</option>
-                    <option value="10">Intel Core I9-11900kf 3.5ghz (s1200)</option>
-                    <option value="11">Nem szeretnék</option>
-                  </select>
-                </p>
-                <p>
                   <label for="memoria"><h5>Válassz memóriát:</h5></label>
                   <select name="memoriak" id="memoriak" class="lista" onchange="belerak(value)">
                     <option value="12">KINGSTON FURY 16GB Beast DDR4 3200MHz CL16 KIT KF432C16BBK2/16</option>
@@ -63,7 +52,7 @@
                   </select>
                 </p>
                 <p>
-                  <label for="memoria"><h5>Válassz videókártyát:</h5></label>
+                  <label for="videokartya"><h5>Válassz videókártyát:</h5></label>
                   <select name="videokartyak" id="videokartyak" class="lista" onchange="belerak(value)">
                     <option value="18">Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5</option>
                     <option value="19">GIGABYTE GeForce GTX 1660 SUPER D6 6G</option>
@@ -74,7 +63,7 @@
                   </select>
                 </p>
                 <p>
-                  <label for="memoria"><h5>Válassz hdd-t/ssd-t</h5></label>
+                  <label for="hddssd"><h5>Válassz merevlemezt</h5></label>
                   <select name="hddssdk" id="hddssdk" class="lista" onchange="belerak(value)">
                     <option value="24">Seagate Barracuda ST2000DM008 2 TB 3,5</option>
                     <option value="25">SureFire GX3 Gaming HDD 2TB</option>
@@ -85,17 +74,29 @@
                   </select>
                 </p>
                 <p>
-                  <input type="submit" value="Megrendelés" id="gomb">
+                  <input type="submit" value="Megrendelés" id="gomb" onclick="rendel()">
                 </p>
             </div>
             <div class="col-md-6 box">
               <p id="cuccok">
                 <h3>Eddigi alkatrészek:</h3>
               </p>
-              <p id="procik">
+              <p id="alap">
                 
               </p>
+              <p id="procik">
+
+              </p>
               <p id="memoria">
+
+              </p>
+              <p id="videokartya"> 
+
+              </p>
+              <p id="hddssd">
+
+              </p>
+              <p id="ar">
 
               </p>
             </div>
