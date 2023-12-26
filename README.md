@@ -7,7 +7,8 @@
 - ellenőrzés megrendelés előtt
 - értékelés 
 
-### Földi Soma - weblap az alkatrészek leírásával
+### Földi Soma - weblap az alkatrészek leírásával: 
+- 
 
 A feladatok megoldásához használtunk:
 - HTML(5)-t, 
