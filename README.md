@@ -10,7 +10,7 @@
 ### Földi Soma - weblap az alkatrészek leírásával: 
 - 
 
-A feladatok megoldásához használtunk:
+## A feladatok megoldásához használtunk:
 - HTML(5)-t, 
 - Javascriptet,
 - CSS-t,
