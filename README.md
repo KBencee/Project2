@@ -8,7 +8,10 @@
 - értékelés 
 
 ### Földi Soma - weblap az alkatrészek leírásával: 
-- 
+- legördülő lista
+- kiválasztható alkatrészek
+- képek az alkatrészekhez
+- átlátható weboldal
 
 ### A feladatok megoldásához használtunk:
 - HTML(5)-t, 
