@@ -15,7 +15,7 @@
 
 ### A feladatok megoldásához használtunk:
 - HTML(5)-t, 
-- Javascriptet,
+- Javascript-et,
 - CSS-t,
 - és Bootstrap 5-t.
 
