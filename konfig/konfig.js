@@ -129,6 +129,7 @@ function kiir(){
     case 23:
         document.getElementById("videokartya").innerHTML="<u>Választott videókártya:</u> Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5 <br>" + `<p>${list[index]}Ft</p>`
         pszam4++;
+        osszeg4=list[index];
         break;   
     case 24:
         document.getElementById("hddssd").innerHTML="Nem kérek merevlemezt <br>"
