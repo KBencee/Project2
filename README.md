@@ -3,9 +3,9 @@
 ### Kiss Bence - konfigurációs weblap készítése:
 - legördülő listás választási lehetőség
 - kiválasztott alkatrészek látható felsorolása
-- bootstrap
+- árak összeadása
 - ellenőrzés megrendelés előtt
-- értékelés 
+- külön oldal az értékelésekhez, csillagokkal, megjegyzésekkel
 
 ### Földi Soma - weblap az alkatrészek leírásával: 
 - legördülő lista
