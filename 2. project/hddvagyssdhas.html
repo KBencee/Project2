@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HDD vagy SSD</title>
+    <link rel="stylesheet" href="hddvagyssd.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none;color: white; margin: 0; font-size: 42px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a></h1>
+        <h1>HDD vagy SSD</h1>
+        <h1><a href="hddvagyssdhas.html" style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a></h1>
+    </header>
+
+    <main>
+        <label for="storageSelect1">Válassz egy tárolót:</label>
+        <select id="storageSelect1">
+            <option value="Seagate Barracuda ST2000DM008 2 TB 3.5">Seagate Barracuda ST2000DM008 2 TB 3.5</option>
+            <option value="SureFire GX3 Gaming HDD 2TB">SureFire GX3 Gaming HDD 2TB</option>
+            <option value="SureFire GX3 Gaming SSD 1TB">SureFire GX3 Gaming SSD 1TB</option>
+            <option value="Kingston A400 960GB SATA SSD">Kingston A400 960GB SATA SSD</option>
+            <option value="ADATA XPG GAMMIX S11 Pro SSD 1TB">ADATA XPG GAMMIX S11 Pro SSD 1TB</option>
+        </select>
+
+        <label for="storageSelect2">Válassz még egy tárolót:</label>
+        <select id="storageSelect2">
+            <option value="Seagate Barracuda ST2000DM008 2 TB 3.5">Seagate Barracuda ST2000DM008 2 TB 3.5</option>
+            <option value="SureFire GX3 Gaming HDD 2TB">SureFire GX3 Gaming HDD 2TB</option>
+            <option value="SureFire GX3 Gaming SSD 1TB">SureFire GX3 Gaming SSD 1TB</option>
+            <option value="Kingston A400 960GB SATA SSD">Kingston A400 960GB SATA SSD</option>
+            <option value="ADATA XPG GAMMIX S11 Pro SSD 1TB">ADATA XPG GAMMIX S11 Pro SSD 1TB</option>
+        </select>
+
+        <button onclick="compareStorage()">Összehasonlítás</button>
+
+        <div id="storageProducts">
+        </div>
+    </main>
+
+    <script src="hddvagyssdhas.js"></script>
+</body>
+
+</html>

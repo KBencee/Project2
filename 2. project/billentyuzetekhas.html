@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Billentyűzetek összehasonlítása</title>
+    <link rel="stylesheet" href="billentytuzetek.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none;color: white; margin: 0; font-size: 42px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a></h1>
+        <h1>Billentyűzetek</h1>
+        <h1><a href="billentyuzetekhas.html" style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a></h1>
+    </header>
+
+    <main>
+        <label for="lapSelect1">Válassz egy billentyűzetet:</label>
+        <select id="lapSelect1">
+            <option value="DELUX K9852">DELUX K9852</option>
+            <option value="HyperX Alloy Origins Red">HyperX Alloy Origins Red</option>
+            <option value="Logitech G213 Prodigy">Logitech G213 Prodigy</option>
+            <option value="Gigabyte AORUS K1">Gigabyte AORUS K1</option>
+            <option value="Ducky ONE 2 Mini MX Silent Red">Ducky ONE 2 Mini MX Silent Red</option>
+        </select>
+
+        <label for="lapSelect2">Válassz még egy billentyűzetet:</label>
+        <select id="lapSelect2">
+            <option value="DELUX K9852">DELUX K9852</option>
+            <option value="HyperX Alloy Origins Red">HyperX Alloy Origins Red</option>
+            <option value="Logitech G213 Prodigy">Logitech G213 Prodigy</option>
+            <option value="Gigabyte AORUS K1">Gigabyte AORUS K1</option>
+            <option value="Ducky ONE 2 Mini MX Silent Red">Ducky ONE 2 Mini MX Silent Red</option>
+        </select>
+
+        <button onclick="compareKeyboards()">Összehasonlítás</button>
+
+        <div id="keyboardProducts">
+        </div>
+    </main>
+
+    <script src="billentytuzetekhas.js"></script>
+</body>
+
+</html>

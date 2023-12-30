@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Monitorok</title>
+    <link rel="stylesheet" href="monitorok.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a></h1>
+        <h1>Monitorok</h1>
+    </header>
+
+    <main>
+        <label for="monitorSelect1">Válassz egy monitort:</label>
+        <select id="monitorSelect1">
+            <option value="27-inch Samsung S366C">27-inch Samsung S366C</option>
+            <option value="BenQ XL2411P ZOWIE Gaming monitor">BenQ XL2411P ZOWIE Gaming monitor</option>
+            <option value="23.8-inch ASUS TUF Gaming VG249Q1A">23.8-inch ASUS TUF Gaming VG249Q1A</option>
+            <option value="34-inch Samsung Odyssey G5">34-inch Samsung Odyssey G5</option>
+            <option value="29-inch LG UltraWide 29WP500-B">29-inch LG UltraWide 29WP500-B</option>
+        </select>
+
+        <label for="monitorSelect2">Válassz még egy monitort:</label>
+        <select id="monitorSelect2">
+            <option value="27-inch Samsung S366C">27-inch Samsung S366C</option>
+            <option value="BenQ XL2411P ZOWIE Gaming monitor">BenQ XL2411P ZOWIE Gaming monitor</option>
+            <option value="23.8-inch ASUS TUF Gaming VG249Q1A">23.8-inch ASUS TUF Gaming VG249Q1A</option>
+            <option value="34-inch Samsung Odyssey G5">34-inch Samsung Odyssey G5</option>
+            <option value="29-inch LG UltraWide 29WP500-B">29-inch LG UltraWide 29WP500-B</option>
+        </select>
+
+        <button onclick="compareMonitors()">Összehasonlítás</button>
+
+        <div id="monitorProducts">
+        </div>
+    </main>
+
+    <script src="monitorokhas.js"></script>
+</body>
+
+</html>

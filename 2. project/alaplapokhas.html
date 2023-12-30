@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alaplapok összehasonlítása</title>
+    <link rel="stylesheet" href="alaplapok.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"
+                style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a>
+        </h1>
+        <h1>Alaplapok</h1>
+        <h1><a href="alaplapokhas.html"
+                style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a>
+        </h1>
+    </header>
+
+    <main>
+        <label for="lapSelect1">Válassz egy alaplapot:</label>
+        <select id="lapSelect1">
+        </select>
+
+        <label for="lapSelect2">Válassz még egy alaplapot:</label>
+        <select id="lapSelect2">
+        </select>
+
+        <button onclick="compareProducts()">Összehasonlítás</button>
+
+        <div id="products">
+        </div>
+    </main>
+
+    <script src="alaplapokhas.js"></script>
+</body>
+
+</html>

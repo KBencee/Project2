@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Egerek</title>
+    <link rel="stylesheet" href="egerek.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none;color: white
+            ; margin: 0; font-size: 42px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a></h1>
+        <h1>Egerek</h1>
+        <h1><a href="egerekhas.html"
+            style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a>
+    </header>
+
+    <main>
+        <label for="mouseSelect">Válassz egy egeret:</label>
+        <select id="mouseSelect" onchange="showMouse()">
+            <option value="Glorious Model O">Glorious Model O</option>
+            <option value="Corsair Katar PRO">Corsair Katar PRO</option>
+            <option value="SteelSeries Rival 3">SteelSeries Rival 3</option>
+            <option value="Logitech G502 Hero">Logitech G502 Hero</option>
+            <option value="Razer Basilisk V3">Razer Basilisk V3</option>
+        </select>
+
+        <div id="mouseProducts">
+        </div>
+    </main>
+
+    <script src="egerek.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,342 @@
+Alaplapok:
+
+ASUS TUF Gaming A520M-Plus II Alaplap
+
+Ár: 31 590Ft
+Chipset: AMD A520
+Formátum: Micro ATX
+Memória foglalatok: 4x DDR4 (max. 128GB)
+PCI foglalatok: 1x PCIe 3.0 x16, 1x PCIe 3.0 x1
+Csatlakozók: 4x SATA 6Gb/s, 1x M.2, USB 3.2 Gen 1, HDMI, DisplayPort
+
+ASRock H310CM-DVS Alaplap
+
+Ár: 18 390Ft
+Chipset: Intel H310
+Formátum: Micro ATX
+Memória foglalatok: 2x DDR4 (max. 32GB)
+PCI foglalatok: 1x PCIe 3.0 x16, 1x PCIe 2.0 x1
+Csatlakozók: 4x SATA3, 1x M.2, USB 3.1 Gen 1, D-Sub, HDMI
+
+GIGABYTE A520 AORUS ELITE Alaplap
+
+Ár: 37 890 Ft
+Chipset: AMD A520
+Formátum: ATX
+Memória foglalatok: 4x DDR4 (max. 128GB)
+PCI foglalatok: 1x PCIe 3.0 x16, 1x PCIe 3.0 x1
+Csatlakozók: 4x SATA 6Gb/s, 1x M.2, USB 3.2 Gen 1, HDMI
+
+MSI A520M-A PRO Alaplap
+
+Ár: 23 520Ft
+Chipset: AMD A520
+Formátum: Micro ATX
+Memória foglalatok: 2x DDR4 (max. 64GB)
+PCI foglalatok: 1x PCIe 3.0 x16, 2x PCIe 3.0 x1
+Csatlakozók: 4x SATA 6Gb/s, 1x M.2, USB 3.2 Gen 1, HDMI, DVI-D
+
+MSI Mpg B550 Gaming Plus Alaplap
+
+Ár: 52 490Ft
+Chipset: AMD B550
+Formátum: ATX
+Memória foglalatok: 4x DDR4 (max. 128GB)
+PCI foglalatok: 1x PCIe 4.0 x16, 2x PCIe 3.0 x1
+Csatlakozók: 6x SATA 6Gb/s, 2x M.2, USB 3.2 Gen 2, HDMI, DisplayPort
+
+
+Processzorok:
+
+Intel Core i5-11400F Processzor
+
+Ár: 48 090Ft
+Magok/Szálak: 6/12
+Alapórajel: 2.6GHz (Turbo: 4.4GHz)
+Foglalat: LGA1200
+TDP: 65W
+Cache: 12MB Intel Smart Cache
+
+AMD Ryzen 5 3600 Processzor
+
+Ár: 33 090Ft
+Magok/Szálak: 6/12
+Alapórajel: 3.6GHz (Turbo: 4.2GHz)
+Foglalat: AM4
+TDP: 65W
+Cache: 35MB Total Cache
+
+AMD Ryzen 5 5600 Processzor
+
+Ár: 53 590Ft
+Magok/Szálak: 6/12
+Alapórajel: 3.7GHz (Turbo: 4.6GHz)
+Foglalat: AM4
+TDP: 65W
+Cache: 35MB Total Cache
+
+Intel Core i7-11700F Processzor
+
+Ár: 76 290Ft
+Magok/Szálak: 8/16
+Alapórajel: 2.5GHz (Turbo: 4.9GHz)
+Foglalat: LGA1200
+TDP: 65W
+Cache: 16MB Intel Smart Cache
+
+Intel Core I9-11900kf 3.5GHz (s1200) Processzor
+
+Ár: 106 390Ft
+Magok/Szálak: 8/16
+Alapórajel: 3.5GHz (Turbo: 5.3GHz)
+Foglalat: LGA1200
+TDP: 125W
+Cache: 16MB Intel Smart Cache
+
+
+Memóriák:
+
+KINGSTON FURY 16GB Beast DDR4 3200MHz CL16 KIT KF432C16BBK2/16 - Ár: 14 889Ft
+
+Kapacitás: 16GB (2x8GB)
+Sebesség: 3200MHz
+CAS Latency: CL16
+Kialakítás: RGB LED
+Memória típusa: DDR4
+
+CORSAIR 16GB Vengeance LPX DDR4 3200MHz CL16 CMK16GX4M1E3200C16 - Ár: 17 890Ft
+
+Kapacitás: 16GB
+Sebesség: 3200MHz
+CAS Latency: CL16
+Kialakítás: Nincs RGB
+Memória típusa: DDR4
+
+HP 8GB /3000 V8 RGB DDR4 RAM - Ár: 27 220Ft
+
+Kapacitás: 8GB
+Sebesség: 3000MHz
+CAS Latency: N/A
+Kialakítás: RGB LED
+Memória típusa: DDR4
+
+Patriot 32GB DDR4 3600MHz Kit(2x16GB) Viper Steel RGB PVSR432G360C8K - Ár: 32 790Ft
+
+Kapacitás: 32GB (2x16GB)
+Sebesség: 3600MHz
+CAS Latency: CL8
+Kialakítás: RGB LED
+Memória típusa: DDR4
+
+TEAM GROUP 16GB Delta RGB DDR4 3200MHz CL16 KIT TF4D416G3200HC16CDC01 - Ár: 19 690Ft
+
+Kapacitás: 16GB (2x8GB)
+Sebesség: 3200MHz
+CAS Latency: CL16
+Kialakítás: RGB LED
+Memória típusa: DDR4
+
+
+Videokártyák:
+
+Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5 - Ár: 63 999Ft
+
+VRAM: 6GB GDDR5
+Memória sebessége: 8 Gbps
+Csatlakozók: 1x HDMI, 3x DisplayPort, 1x Dual-link DVI-D
+DirectX verzió: 12
+
+GIGABYTE GeForce GTX 1660 SUPER D6 6G - Ár: 117 090Ft
+
+VRAM: 6GB GDDR6
+Memória sebessége: 14 Gbps
+Csatlakozók: 1x HDMI, 3x DisplayPort
+DirectX verzió: 12
+
+MSI GeForce RTX 4060 GAMING X 8G - Ár: 151 890Ft
+
+VRAM: 8GB GDDR6
+Memória sebessége: N/A
+Csatlakozók: N/A
+DirectX verzió: N/A
+
+ASUS ROG Strix RX 560 V2 4GB GDDR5 videokártya - Ár: 47 090Ft
+
+VRAM: 4GB GDDR5
+Memória sebessége: N/A
+Csatlakozók: N/A
+DirectX verzió: N/A
+
+ASUS Dual RTX 3050 8GB GDDR6 videokártya - Ár: 103 290Ft
+
+VRAM: 8GB GDDR6
+Memória sebessége: N/A
+Csatlakozók: N/A
+DirectX verzió: N/A
+
+
+HDD vagy SSD:
+
+Seagate Barracuda ST2000DM008 2 TB 3,5" belső merevlemez - Ár: 21 789Ft
+
+Tárolókapacitás: 2TB
+Formátum: 3.5"
+Csatlakozás: SATA 6Gb/s
+Merevlemez sebessége: 7200 RPM
+Típus: HDD
+
+SureFire GX3 Gaming HDD 2TB - Ár: 25 290Ft
+
+Tárolókapacitás: 2TB
+Formátum: N/A
+Csatlakozás: N/A
+Merevlemez sebessége: N/A
+Típus: HDD
+
+SureFire GX3 Gaming SSD 1TB - Ár: 27 490Ft
+
+Tárolókapacitás: 1TB
+Formátum: N/A
+Csatlakozás: N/A
+Merevlemez sebessége: N/A
+Típus: SSD
+
+Kingston A400 960GB SATA SSD - Ár: 20 991Ft
+
+Tárolókapacitás: 960GB
+Formátum: 2.5"
+Csatlakozás: SATA 6Gb/s
+SSD sebessége: Akár 500MB/s írás, 450MB/s olvasás
+Típus: SSD
+
+ADATA XPG GAMMIX S11 Pro SSD 1TB - Ár: 45 090Ft
+
+Tárolókapacitás: 1TB
+Formátum: N/A
+Csatlakozás: N/A
+SSD sebessége: Akár 3500MB/s írás, 3000MB/s olvasás
+Típus: SSD
+
+
+Monitorok:
+
+27" Samsung S366C - Ár: 38 000Ft
+
+Kijelző mérete: 27"
+Felbontás: Full HD (1920x1080)
+Frissítési ráta: 60Hz
+Kijelző típusa: IPS
+Csatlakozók: HDMI, DisplayPort
+
+BenQ XL2411P ZOWIE Gaming monitor, 24", Full HD, 1ms, 144Hz, DVI, HDMI, DP, Fekete - Ár: 67 890Ft
+
+Kijelző mérete: 24"
+Felbontás: Full HD (1920x1080)
+Frissítési ráta: 144Hz
+Kijelző típusa: TN
+Csatlakozók: DVI, HDMI, DisplayPort
+
+23.8" ASUS TUF Gaming VG249Q1A - Ár: 65 000Ft
+
+Kijelző mérete: 23.8"
+Felbontás: Full HD (1920x1080)
+Frissítési ráta: 144Hz
+Kijelző típusa: IPS
+Csatlakozók: HDMI, DisplayPort
+
+34" Samsung Odyssey G5 - Ár: 84 999Ft
+
+Kijelző mérete: 34"
+Felbontás: WQHD (3440x1440)
+Frissítési ráta: 165Hz
+Kijelző típusa: VA
+Csatlakozók: HDMI, DisplayPort
+
+29" LG UltraWide 29WP500-B - Ár: 64 900Ft
+
+Kijelző mérete: 29"
+Felbontás: UltraWide Full HD (2560x1080)
+Frissítési ráta: 75Hz
+Kijelző típusa: IPS
+Csatlakozók: HDMI, DisplayPort
+
+
+Egerek:
+
+Glorious Model O - Ár: 18 691Ft
+
+Kialakítás: Ergonomikus
+Kapcsolók: Omron
+Érzékelő: PixArt PMW3360
+DPI: Akár 12,000
+Kábel: Braided
+
+Corsair Katar PRO - Ár: 7 390Ft
+
+Kialakítás: Ambidextrous
+Kapcsolók: Omron
+Érzékelő: PixArt PMW3325
+DPI: Akár 10,000
+Kábel: Braided
+
+SteelSeries Rival 3 - Ár: 9690Ft
+
+Kialakítás: Ergonomikus
+Kapcsolók: SteelSeries mechnikus
+Érzékelő: TrueMove Core optikai
+DPI: Akár 8,500
+Kábel: Soft rubber
+
+Logitech G502 Hero - Ár: 18 990Ft
+
+Kialakítás: Ergonomikus
+Kapcsolók: Logitech HERO
+Érzékelő: HERO 25K optikai
+DPI: Akár 25,600
+Kábel: Braided
+
+Razer Basilisk V3 - Ár: 20 991Ft
+
+Kialakítás: Ergonomikus
+Kapcsolók: Razer optikai
+Érzékelő: Focus+ optikai
+DPI: Akár 26,000
+Kábel: Speedflex
+
+
+Billentyűzetek:
+
+DELUX K9852 - Ár: 4 090Ft
+
+Kialakítás: Mechanikus
+Kapcsolók: N/A
+Érzékelő: N/A
+Egyéb: N/A
+
+HyperX Alloy Origins Red - Ár: 36 490Ft
+
+Kialakítás: Mechanikus
+Kapcsolók: HyperX Red kapcsolók
+Érzékelő: N/A
+Egyéb: N/A
+
+Logitech G213 Prodigy - Ár: 20 591Ft
+
+Kialakítás: Membrán
+Kapcsolók: Membrán
+Érzékelő: N/A
+Egyéb: N/A
+
+Gigabyte AORUS K1 - Ár: 38 285Ft
+
+Kialakítás: Mechanikus
+Kapcsolók: Flaretech optikai kapcsolók
+Érzékelő: N/A
+Egyéb: N/A
+
+Billentyűzet Ducky ONE 2 Mini MX Silent Red - Ár: 48 290Ft
+
+Kialakítás: Mechanikus
+Kapcsolók: Cherry MX Silent Red kapcsolók
+Érzékelő: N/A
+Egyéb: N/A

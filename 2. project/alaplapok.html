@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alaplapok</title>
+    <link rel="stylesheet" href="alaplapok.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"
+                style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a>
+        </h1>
+        <h1>Alaplapok</h1>
+        <h1><a href="alaplapokhas.html"
+                style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a>
+        </h1>
+    </header>
+
+    <main>
+        <label for="lapSelect">Válassz egy alaplapot:</label>
+        <select id="lapSelect" onchange="showSelected()">
+            <option value="ASUS TUF Gaming A520M-Plus II Alaplap">ASUS TUF Gaming A520M-Plus II Alaplap</option>
+            <option value="ASRock H310CM-DVS Alaplap">ASRock H310CM-DVS Alaplap</option>
+            <option value="GIGABYTE A520 AORUS ELITE Alaplap">GIGABYTE A520 AORUS ELITE Alaplap</option>
+            <option value="MSI A520M-A PRO Alaplap">MSI A520M-A PRO Alaplap</option>
+            <option value="MSI Mpg B550 Gaming Plus Alaplap">MSI Mpg B550 Gaming Plus Alaplap</option>
+        </select>
+
+        <div id="products">
+        </div>
+    </main>
+
+    <script src="alaplapok.js"></script>
+</body>
+
+</html>

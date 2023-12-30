@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Processzorok összehasonlítása</title>
+    <link rel="stylesheet" href="processzorok.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"
+                style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a>
+        </h1>
+        <h1><a href="processzorokhas.html"
+                style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a>
+        </h1>
+    </header>
+
+    <main>
+        <label for="processorSelect1">Válassz egy processzort:</label>
+        <select id="processorSelect1">
+            <option value="Intel Core i5-11400F Processzor">Intel Core i5-11400F Processzor</option>
+            <option value="AMD Ryzen 5 3600 Processzor">AMD Ryzen 5 3600 Processzor</option>
+            <option value="AMD Ryzen 5 5600 Processzor">AMD Ryzen 5 5600 Processzor</option>
+            <option value="Intel Core i7-11700F Processzor">Intel Core i7-11700F Processzor</option>
+            <option value="Intel Core I9-11900kf 3.5GHz (s1200) Processzor">Intel Core I9-11900kf 3.5GHz (s1200)
+                Processzor</option>
+        </select>
+
+        <label for="processorSelect2">Válassz még egy processzort:</label>
+        <select id="processorSelect2">
+            <option value="Intel Core i5-11400F Processzor">Intel Core i5-11400F Processzor</option>
+            <option value="AMD Ryzen 5 3600 Processzor">AMD Ryzen 5 3600 Processzor</option>
+            <option value="AMD Ryzen 5 5600 Processzor">AMD Ryzen 5 5600 Processzor</option>
+            <option value="Intel Core i7-11700F Processzor">Intel Core i7-11700F Processzor</option>
+            <option value="Intel Core I9-11900kf 3.5GHz (s1200) Processzor">Intel Core I9-11900kf 3.5GHz (s1200)
+                Processzor</option>
+        </select>
+
+        <button onclick="compareProcessors()">Összehasonlítás</button>
+
+        <div id="processorProducts">
+        </div>
+    </main>
+
+    <script src="processzorokhas.js"></script>
+</body>
+
+</html>

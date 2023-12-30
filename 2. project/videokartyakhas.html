@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Videokártyák összehasonlítása</title>
+    <link rel="stylesheet" href="videokartyak.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a></h1>
+        <h1><a href="videokartyakhas.html" style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a></h1>
+    </header>
+
+    <main>
+        <label for="gpuSelect1">Válassz egy videokártyát:</label>
+        <select id="gpuSelect1">
+            <option value="Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5">Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5</option>
+            <option value="GIGABYTE GeForce GTX 1660 SUPER D6 6G">GIGABYTE GeForce GTX 1660 SUPER D6 6G</option>
+            <option value="MSI GeForce RTX 4060 GAMING X 8G">MSI GeForce RTX 4060 GAMING X 8G</option>
+            <option value="ASUS ROG Strix RX 560 V2 4GB GDDR5 videokártya">ASUS ROG Strix RX 560 V2 4GB GDDR5 videokártya</option>
+            <option value="ASUS Dual RTX 3050 8GB GDDR6 videokártya">ASUS Dual RTX 3050 8GB GDDR6 videokártya</option>
+        </select>
+
+        <label for="gpuSelect2">Válassz még egy videokártyát:</label>
+        <select id="gpuSelect2">
+            <option value="Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5">Gigabyte GV-N1060D5-6GD NVIDIA GeForce GTX 1060 6 GB GDDR5</option>
+            <option value="GIGABYTE GeForce GTX 1660 SUPER D6 6G">GIGABYTE GeForce GTX 1660 SUPER D6 6G</option>
+            <option value="MSI GeForce RTX 4060 GAMING X 8G">MSI GeForce RTX 4060 GAMING X 8G</option>
+            <option value="ASUS ROG Strix RX 560 V2 4GB GDDR5 videokártya">ASUS ROG Strix RX 560 V2 4GB GDDR5 videokártya</option>
+            <option value="ASUS Dual RTX 3050 8GB GDDR6 videokártya">ASUS Dual RTX 3050 8GB GDDR6 videokártya</option>
+        </select>
+
+        <button id="compareButton">Összehasonlítás</button>
+
+        <div id="gpuProducts">
+        </div>
+    </main>
+
+    <script src="videokartyakhas.js"></script>
+</body>
+
+</html>

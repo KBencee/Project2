@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Monitorok</title>
+    <link rel="stylesheet" href="monitorok.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none;color: white
+            ; margin: 0; font-size: 42px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Főoldal</a></h1>
+        <h1>Monitorok</h1>
+        <h1><a href="monitorokhas.html"
+            style="text-decoration: none;color: white;margin: 0;font-size: 42px;font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Összehasonlítás</a>
+    </header>
+
+    <main>
+        <label for="monitorSelect">Válassz egy monitort:</label>
+        <select id="monitorSelect" onchange="showMonitor()">
+            <option value="27-inch Samsung S366C">27-inch Samsung S366C</option>
+            <option value="BenQ XL2411P ZOWIE Gaming monitor">BenQ XL2411P ZOWIE Gaming monitor</option>
+            <option value="23.8-inch ASUS TUF Gaming VG249Q1A">23.8-inch ASUS TUF Gaming VG249Q1A</option>
+            <option value="34-inch Samsung Odyssey G5">34-inch Samsung Odyssey G5</option>
+            <option value="29-inch LG UltraWide 29WP500-B">29-inch LG UltraWide 29WP500-B</option>
+        </select>
+
+        <div id="monitorProducts">
+        </div>
+    </main>
+
+    <script src="monitorok.js"></script>
+</body>
+
+</html>
