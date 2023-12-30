@@ -12,8 +12,10 @@ Az oldalon össze lehet állítani egy számítógépet a megadott alkatrészek 
 ### Földi Soma - weblap az alkatrészek leírásával: 
 - legördülő lista
 - kiválasztható alkatrészek
-- képek az alkatrészekhez
+- összehasonlítási lehetőség a termékek árai között
 - átlátható weboldal
+
+Adatgyűjtéshez és a dolgok behelyettesítéséhez használtam chatgpt-t valamint hibák esetén segítségkérésre is.
 
 ### A feladatok megoldásához használtunk:
 - HTML(5)-t, 
